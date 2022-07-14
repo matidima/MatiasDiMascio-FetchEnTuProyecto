@@ -124,4 +124,5 @@ for (let i = 0; i < btnAgregar.length; i++) {
 }
 
 fetch('productos.json')
-  .then(response => console.log(response))
+  .then((response) => console.log(response))
+  .then((json) => console.log(json))
