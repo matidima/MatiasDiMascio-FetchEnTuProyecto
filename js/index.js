@@ -123,5 +123,5 @@ for (let i = 0; i < btnAgregar.length; i++) {
     }).showToast();
 }
 
-fetch('./autos.json')
+fetch('productos.json')
   .then(response => console.log(response))
